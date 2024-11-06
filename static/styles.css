@@ -100,6 +100,12 @@ a:hover {
 }
 
 
+.weather-icon[data-icon="50n"], 
+.weather-icon[data-icon="50d"] {
+    width: 50px; 
+    height: 50px;
+}
+
 .modal {
     position: fixed;
     z-index: 1;

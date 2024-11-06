@@ -12,7 +12,7 @@
             <p>Temperature: {{ weather.temperature }} °C</p>
             <p>Feels like: {{ weather.feels_like }} °C</p>
             <p>Humidity: {{ weather.humidity }}%</p>
-            <img src="/static/animated_icons/{{ weather.icon }}.svg" alt="Weather Icon">
+            <img src="/static/animated_icons/{{ weather.icon }}.svg" alt="Weather Icon" class="weather-icon" data-icon="{{ weather.icon }}">
            
         </div>
 
@@ -24,7 +24,7 @@
                         <p>{{ forecast.datetime.split(' ')[0] }}</p>
                         <p>{{ forecast.description }}</p>
                         <p>Temperature: {{ forecast.temperature }} °C</p>
-                        <img src="/static/animated_icons/{{ forecast.icon }}.svg" alt="Weather Icon">
+                        <img src="/static/animated_icons/{{ forecast.icon }}.svg" alt="Weather Icon" class="weather-icon" data-icon="{{ weather.icon }}">
                       
                     </li>
                 {% endfor %}
