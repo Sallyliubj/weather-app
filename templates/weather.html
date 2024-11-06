@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Details</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="current-weather">
+            <h2>Today's Weather in {{ weather.city }}</h2>
+            <p>{{ weather.description }}</p>
+            <p>Temperature: {{ weather.temperature }} °C</p>
+            <p>Feels like: {{ weather.feels_like }} °C</p>
+            <p>Humidity: {{ weather.humidity }}%</p>
+            <img src="/static/animated_icons/{{ weather.icon }}.svg" alt="Weather Icon">
+           
+        </div>
+
+        <div class="forecast">
+            <h3>Weather in the future 5 days</h3>
+            <ul>
+                {% for forecast in forecasts %}
+                    <li class="forecast-item">
+                        <p>{{ forecast.datetime.split(' ')[0] }}</p>
+                        <p>{{ forecast.description }}</p>
+                        <p>Temperature: {{ forecast.temperature }} °C</p>
+                        <img src="/static/animated_icons/{{ forecast.icon }}.svg" alt="Weather Icon">
+                      
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <br><br>
+        <a href="/">Back to Home</a>
+    </div>
+</body>
+</html>
