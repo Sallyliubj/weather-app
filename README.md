@@ -33,7 +33,7 @@ This project is a simple weather application built using Flask. The app allows u
 
 4. **Run the Application**:
    ```sh
-   python app.py
+   python weather_app.py
    ```
    - The app will be accessible at `http://127.0.0.1:5000/`.
 
@@ -49,5 +49,5 @@ This project is a simple weather application built using Flask. The app allows u
 - **`requirements.txt`**: File listing all the Python dependencies required for the app.
 
 ## Notes
-- Make sure to get your own API key from [OpenWeatherMap](https://openweathermap.org/api) and add it to the `.env` file.
+- OpenWeatherMap API key is provided in `.env` file for convinience, but you are encouraged to get your own API key from [OpenWeatherMap](https://openweathermap.org/api).
 - The app is designed to be a simple implementation, and the UI can be further enhanced as needed.
