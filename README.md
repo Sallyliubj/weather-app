@@ -49,5 +49,5 @@ This project is a simple weather application built using Flask. The app allows u
 - **`requirements.txt`**: File listing all the Python dependencies required for the app.
 
 ## Notes
-- OpenWeatherMap API key is provided in `.env` file for convinience, but you are encouraged to get your own API key from [OpenWeatherMap](https://openweathermap.org/api).
+- Get your own API key from [OpenWeatherMap](https://openweathermap.org/api).
 - The app is designed to be a simple implementation, and the UI can be further enhanced as needed.
