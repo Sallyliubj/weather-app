@@ -50,4 +50,8 @@ This project is a simple weather application built using Flask. The app allows u
 
 ## Notes
 - Get your own API key from [OpenWeatherMap](https://openweathermap.org/api).
+<<<<<<< Updated upstream
 - The app is designed to be a simple implementation, and the UI can be further enhanced as needed.
+=======
+- The app is designed to be a simple implementation, and the UI can be further enhanced as needed.
+>>>>>>> Stashed changes
