@@ -1,13 +1,15 @@
 # Weather App
 
-This project is a simple weather application built using Flask. The app allows users to get the current weather and a 5-day weather forecast for a specified city or based on their current location.
+A simple weather application built using Flask. The app allows users to get the current weather and a 5-day weather forecast for a specified city or based on their current location.
 
 ## Features
 - **Current Weather**: Users can enter a city name to get the current weather information, including temperature, humidity, and general weather description.
 - **5-Day Forecast**: The application also provides a 5-day weather forecast for the selected city, showing the daytime weather for each day.
 - **Weather by Location**: Users can use their device's geolocation to get the current weather and a 5-day forecast for their current location.
 
-## Technologies Used
+![homepage](homepage.png)
+
+## Technologies
 - **Flask**: Used to create the web application and handle routes.
 - **HTML/CSS**: For creating a simple user interface.
 - **OpenWeatherMap API**: Used to fetch the weather data.
@@ -50,8 +52,4 @@ This project is a simple weather application built using Flask. The app allows u
 
 ## Notes
 - Get your own API key from [OpenWeatherMap](https://openweathermap.org/api).
-<<<<<<< Updated upstream
 - The app is designed to be a simple implementation, and the UI can be further enhanced as needed.
-=======
-- The app is designed to be a simple implementation, and the UI can be further enhanced as needed.
->>>>>>> Stashed changes
